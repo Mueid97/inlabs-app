@@ -4,7 +4,7 @@ const OneAppCard = ({cd}) => {
     const {name,para,img}= cd;
     return (
         <div>
-            <div class=" bg-base-100 shadow-xl my-2 rounded-md">
+            <div style={{height: '264px'}} class=" bg-base-100 shadow-xl grid items-center rounded-md">
                 <figure className='px-4'>
                     <img style={{width: '30px', height: '30px'}} src={img}  alt="" class="rounded-xl" />
                 </figure>

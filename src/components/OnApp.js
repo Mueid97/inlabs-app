@@ -54,7 +54,7 @@ const OnApp = () => {
                             <div>
                                 <div className='mt-4 '>
                                 
-                                    <div  className='grid lg:grid-cols-3 sm:grid-cols-1 gap-4'>
+                                    <div  className='grid lg:grid-cols-2 sm:grid-cols-1 gap-8'>
                                         {
                                             card1.map(cd => <OneAppCard key={cd.id} cd={cd}></OneAppCard>)
                                         }
