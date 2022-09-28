@@ -66,7 +66,7 @@ const Header = () => {
                 </div>
 
                 <div className="navbar-end">
-                    <a className="btn btn-ghost text-accent mr-4">Login</a>
+                    <a className="btn   text-accent mr-4">Login</a>
                     <a className="btn btn-accent text-white">Open Accounts</a>
                 </div>
             </div>
