@@ -1,6 +1,7 @@
 import React from 'react';
 import img1 from "../accets/cards.png"
 import svg1 from '../accets/success-tick-svgrepo-com.svg'
+import icon from '../accets/arrow-thin-right-icon.svg'
 const Hero = () => {
 
     return (
@@ -36,7 +37,7 @@ const Hero = () => {
                         </div>
                         <div className='mt-4'>
                             <button class="btn btn-accent text-white">Open Account</button>
-                            <button class="btn btn-ghost ml-4 text-accent">Compare Cards</button>
+                            <button class="btn btn-ghost ml-4 text-accent">Compare Cards <span className='px-2'><img width={20} height={20} src={icon} alt="" /></span> </button>
                         </div>
                     </div>
                 </div>
