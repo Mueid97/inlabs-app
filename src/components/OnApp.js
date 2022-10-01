@@ -45,10 +45,10 @@ const OnApp = () => {
     return (
         <div>
             <div>
-                <div class=" min-h-screen bg-base-100 px-48 mt-36 ">
-                    <div class="flex justify-between gap-12">
+                <div class=" min-h-screen bg-base-100 lg:px-48 lg:mt-36 ">
+                    <div class="lg:flex justify-between gap-12">
 
-                        <div>
+                        <div className='px-10'>
                             <h1 class="text-5xl font-semibold">One App</h1>
                             <h1 class="text-5xl font-semibold">One Banking</h1>
                             <div>
@@ -63,7 +63,9 @@ const OnApp = () => {
 
                             </div>
                         </div>
+                        <div className='mt-6 px-10'>
                         <img src={img2} alt='' class="max-w-sm rounded-lg " />
+                        </div>
                     </div>
                 </div>
             </div>

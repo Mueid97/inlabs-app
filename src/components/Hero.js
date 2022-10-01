@@ -6,7 +6,7 @@ const Hero = () => {
 
     return (
         <div>
-            <div class="hero min-h-screen bg-base-100 px-48 mt-36 ">
+            <div class="hero min-h-screen bg-base-100 lg:px-48 lg:mt-36 ">
                 <div class="hero-content gap-12 flex-col lg:flex-row-reverse">
                     <img src={img1} alt='' class="max-w-sm rounded-lg " />
                     <div>

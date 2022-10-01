@@ -3,9 +3,9 @@ import React from 'react';
 const Footer = () => {
     return (
         <div >
-            <footer class="footer p-10 bg-base-100  px-20">
+            <footer class="footer px-10 bg-base-100  lg:px-20 ">
                 <div>  
-                <a className=" ml-14 btn btn-ghost normal-case text-xl font-bold text-accent">banqee.</a>
+                <a className=" lg:ml-14 btn btn-ghost normal-case text-xl font-bold text-accent">banqee.</a>
                 </div>
                 <div>
                     <span class=" text-xl font-semibold text-black">About</span>

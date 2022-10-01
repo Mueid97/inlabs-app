@@ -4,9 +4,9 @@ import img5 from '../../accets/grid (2).png'
 const Less = () => {
     return (
         <div>
-             <div class=" min-h-screen mt-10  px-48 ">
-                <img className='mb-4' src={img5} alt="" />
-                <div class=" flex justify-between items-center gap-10">
+             <div class=" min-h-screen mt-10  lg:px-48 ">
+                <img className='mb-4 px-10' src={img5} alt="" />
+                <div class=" lg:flex justify-between items-center px-10 gap-10 ">
                    
                     <div>
                         <h1>Tools</h1>
